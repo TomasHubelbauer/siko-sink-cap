@@ -18,8 +18,7 @@ jobs:
         # Check out the `master` branch because by default GitHub Actions checks out detached HEAD
         git checkout master
         # Run the render
-        sudo add-apt-repository ppa:openscad/releases -y
-        sudo apt-get install openscad -y
+        sudo snap install openscad-nightly
         xvfb-run openscad --output model.png --render model.scad
         git add model.png
         # Commit the changes to the Git repository if any
