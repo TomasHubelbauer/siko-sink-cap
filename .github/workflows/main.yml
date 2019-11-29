@@ -18,6 +18,7 @@ jobs:
         # Check out the `master` branch because by default GitHub Actions checks out detached HEAD
         git checkout master
         # Run the render
+        sudo add-apt-repository ppa:openscad/releases -y
         sudo apt-get install openscad -y
         openscad -o model.png --render model.scad
         git add model.png
