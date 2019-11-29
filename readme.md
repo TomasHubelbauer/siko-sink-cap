@@ -22,3 +22,5 @@ repository has a version from 2015, which hangs when rendering in headless mode.
 On 19.04, OpenSCAD is supposed to be included in the box in a recent version:
 
 `sudo apt-get install openscad`
+
+https://askubuntu.com/a/1127709/459660
