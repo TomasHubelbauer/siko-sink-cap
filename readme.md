@@ -14,8 +14,11 @@ It costs as much built as the build-it-yourself version on the Prusa website:
 
 https://shop.prusa3d.com/cs/17-3d-tiskarny
 
-### Set up GitHub Actions with OpenSCAD rendering to file
+### Switch the workflow to Aptitude when Ubuntu 19.04 is available in runners
 
-`openscad -o png`
+On 18.04 and 16.04 OpenSCAD is not available out of the box and the backpoints
+repository has a version from 2015, which hangs when rendering in headless mode.
 
-https://www.openscad.org/downloads.html#linux
+On 19.04, OpenSCAD is supposed to be included in the box in a recent version:
+
+`sudo apt-get install openscad`
