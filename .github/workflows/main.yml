@@ -19,8 +19,7 @@ jobs:
         git checkout master
         # Run the render
         sudo snap install openscad-nightly
-        Xvfb :5 -screen 0 800x600x24 &
-        export DISPLAY=:5
+        Xvfb :99 -screen 0 800x600x24 &
         xvfb-run openscad-nightly -o model.png model.scad
         git add model.png
         # Commit the changes to the Git repository if any
