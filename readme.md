@@ -6,6 +6,21 @@ I'm missing a piece from my sink cap, so I'm going to print a replacement of it.
 
 ## To-Do
 
+### Print the part in Prusalab
+
+- https://prusalab.cz
+- https://prusalab.cz/clenstvi
+
+See if I can make it some Wednesday because it seems the membership requires a
+training before using the printers.
+
+It doesn't  seem they offer a service where you send in the STL and come pick
+up the print.
+
+- http://www.3d-tisk-praha.eu/objednavka-poptavka.html no online calculator
+- https://www.sharplayers.cz/3d-tisk-poptavka no online calculator
+- https://3d-tisk.printup.cz online calculator: 150 CZK
+
 ### Buy the printer
 
 https://www.alza.cz/prusa-i3-mk3s-d5553840.htm
