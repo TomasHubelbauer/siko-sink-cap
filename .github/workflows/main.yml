@@ -20,7 +20,7 @@ jobs:
         # Run the render
         sudo add-apt-repository ppa:openscad/releases -y
         sudo apt-get install openscad -y
-        openscad -o model.png --render model.scad
+        openscad --output model.png --render model.scad
         git add model.png
         # Commit the changes to the Git repository if any
         if git diff-index --quiet HEAD --; then
