@@ -22,6 +22,8 @@ up the print.
 - https://3d-tisk.printup.cz online calculator: 150 CZK
 - https://www.facebook.com/marketplace/item/2254435308187816 prints
 
+http://protofinal.cz/sluzby/3d-tisk-prototypu is nearby
+
 ### Buy the printer
 
 https://www.alza.cz/prusa-i3-mk3s-d5553840.htm
@@ -44,3 +46,5 @@ https://askubuntu.com/a/1127709/459660
 ### Consider generating the STL in the GitHub Actions workflow as well
 
 `openscad -o model.stl model.scad`
+
+### Await ProtoFinal response
